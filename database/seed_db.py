@@ -36,7 +36,7 @@ for i in range(num_samples):
     
     # Insert the data into the database
     cur.execute(
-        sql.SQL("INSERT INTO voltage (timestamp, voltage) VALUES (%s, %s)"),
+        sql.SQL("INSERT INTO postgresft_public.voltage (timestamp, voltage) VALUES (%s, %s)"),
         [sample_time, voltage]
     )
 
