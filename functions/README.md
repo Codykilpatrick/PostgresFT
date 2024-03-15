@@ -23,6 +23,7 @@ In the my_extension directory:
 This will drop us into psql where we can load the extension with:
 - `CREATE EXTENSION my_extension;`
 
+
 And test with:
 - ````SELECT fft_example(ARRAY[0., 0.58778525,  0.95105652,  0.95105652,  0.58778525,  0., -0.58778525, -0.95105652, -0.95105652, -0.58778525, -0., 0.58778525,  0.95105652,  0.95105652,  0.58778525,  0., -0.58778525, -0.95105652, -0.95105652, -0.58778525]);````
 
